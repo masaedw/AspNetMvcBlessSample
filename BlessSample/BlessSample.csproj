@@ -132,6 +132,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\exam-blessed1.css" />
+    <Content Include="assets\css\exam-blessed2.css" />
+    <Content Include="assets\css\exam-blessed3.css" />
+    <Content Include="assets\css\exam.css" />
     <Content Include="assets\css\example.css" />
     <Content Include="bundler\bundler.js" />
     <Content Include="bundler\node.exe" />
