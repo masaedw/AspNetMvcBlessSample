@@ -265,6 +265,7 @@
     <Content Include="bundler\node_modules\coffee-script\package.json" />
     <Content Include="bundler\coffee.cmd" />
     <Content Include="bundler\bundler.cmd" />
+    <Content Include="GenerateCss.bat" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
