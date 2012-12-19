@@ -133,6 +133,10 @@
   <ItemGroup>
     <Content Include="bundler\bundler.js" />
     <Content Include="bundler\node.exe" />
+    <Content Include="bundler\node_modules\bless\bin\blessc" />
+    <Content Include="bundler\node_modules\bless\lib\bless\index.js" />
+    <Content Include="bundler\node_modules\bless\lib\bless\parser.js" />
+    <Content Include="bundler\node_modules\bless\package.json" />
     <Content Include="bundler\node_modules\clean-css\index.js" />
     <Content Include="bundler\node_modules\clean-css\lib\clean.js" />
     <Content Include="bundler\node_modules\clean-css\node_modules\optimist\index.js" />
