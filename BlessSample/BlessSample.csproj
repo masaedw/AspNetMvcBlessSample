@@ -335,6 +335,9 @@
   <PropertyGroup>
     <PreBuildEvent>call "$(ProjectDir)GenerateCss.bat" "$(ProjectDir)"</PreBuildEvent>
   </PropertyGroup>
+  <Target Name="AfterClean">
+    <Exec Command="call &quot;$(ProjectDir)CleanCss.bat&quot; &quot;$(ProjectDir)&quot;" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
